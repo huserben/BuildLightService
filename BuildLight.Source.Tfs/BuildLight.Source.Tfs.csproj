@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuildLight.Controller.Interfaces\BuildLight.Controller.Interfaces.csproj" />
+    <ProjectReference Include="..\TfsRestServices\TfsRestServices.csproj" />
+  </ItemGroup>
+
+</Project>
